@@ -6,171 +6,356 @@
     <!-- HTML 4 -->
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
-    <script type="text/javascript" src="js/google-analytics.js"></script>
     <title>NEOVIA</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site institutionnel Néovia">
     <meta name="keywords" content="SSII, Indépendant, Freelance, Autonome">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/style.css" rel="stylesheet" media="screen">
+    <meta name="author" content="neovia">
+
+    <!-- styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="assets/css/flexslider.css" rel="stylesheet">
+    <link href="assets/css/refineslide.css" rel="stylesheet"/>
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/color/default.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <script type="text/javascript" src="assets/js/google-analytics.js"></script>
 </head>
 <body>
 <header>
-    <div class="navbar navbar-inverse">
-        <div class="navbar-inner">
-            <ul class="nav">
-                <li><a href="index.html">Concept</a></li>
-                <!--<li><a href="sineo/simulateur.html">Rémunération</a></li>-->
-                <li class="active"><a href="missions.html">Missions</a></li>
-                <li><a href="recrutement.html">Recrutement</a></li>
-                <li><a href="plus.html">En savoir plus</a></li>
-                <li><a href="extranet.html">Extranet</a></li>
-            </ul>
+    <!-- Navbar
+        ================================================== -->
+    <div class="cbp-af-header">
+        <div class=" cbp-af-inner">
+            <div class="container">
+                <div class="row">
+
+                    <div class="span4">
+                        <!-- logo -->
+                        <div class="logo">
+                            <h1><a href="index.html">Neovia</a></h1>
+                            <!-- <img src="assets/img/logo.png" alt="" /> -->
+                        </div>
+                        <!-- end logo -->
+                    </div>
+
+                    <div class="span8">
+                        <!-- top menu -->
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <nav>
+                                    <ul class="nav topnav">
+                                        <li class="dropdown"><a href="index.html">Concept</a></li>
+                                        <li class="dropdown active"><a href="missions.html">Missions</a></li>
+                                        <li class="dropdown"><a href="recrutement.html">Recrutement</a></li>
+                                        <li class="dropdown"><a href="plus.html">En savoir plus</a></li>
+                                        <li class="dropdown"><a href="extranet.html">Extranet</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- end menu -->
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
-    <!--<img src="img/header.gif"/>--> </header>
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="span9"><h1>Des missions variées à l'initiative des consultants</h1>
+</header>
+<section id="intro">
 
-            <p> Les Consultants de Néovia réalisent des missions variées de type : </p>
-            <ul>
-                <li>Analyse/Conception,</li>
-                <li>Développement,</li>
-                <li>Encadrement, Expertise</li>
-            </ul>
-            <p> pour la réalisation d'applications stratégiques auprès de Grands Comptes comme de PME dans tous les
-                secteurs d'activités. </p>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <h2><strong>Des missions variées à l'initiative des consultants</strong></h2>
 
-            <p> Voici à titre d'exemple, quelques missions réalisées par les Consultants de néovia : </p>
-            <ul class="thumbnails">
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>RATP - 91</h3> <img src="img/logos/ratp.jpg" alt="RATP">
-                        <ul>
-                            <li><strong>Objet</strong> : Conception et développement d'un portail grand public</li>
-                            <li><strong>Equipe</strong> : 1 chef de projet, 2 fonctionnels, 3 développeurs</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : Choix des outils, Méthode, Conception,
-                                Développement.
-                            </li>
-                            <li><strong>Durée</strong> : 12 mois</li>
-                            <li><strong>Technologies</strong> : UML, J2EE,</li>
-                            <li><strong>Outils</strong> : Rational Rose, Websphere 6, Oracle v8, Solaris.</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>MANPOWER - st ouen 93</h3> <img src="img/logos/manpo.jpg" alt="ratp">
-                        <ul>
-                            <li><strong>Objet</strong> : Conception et développement d'une application stratégique
-                                orientée sur le métier du recrutement
-                            </li>
-                            <li><strong>Equipe</strong> : 1 chef de projet, 2 fonctionnels, 3 développeurs</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : Méthode, Conception, Développement.</li>
-                            <li><strong>Durée</strong> : 6 mois</li>
-                            <li><strong>Technologies</strong> : UML, J2EE, principes de l'Extreme Programming</li>
-                            <li><strong>Outils</strong> : Synergy CM / CS, Rational Rose, Websphere 6, DB2 v8, Solaris,
-                                RAD 6.
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>IBM centre de recherche - la gaude 06</h3> <img src="img/logos/ibm.jpg"
-                                                                                               alt="IBM">
-                        <ul>
-                            <li><strong>Objet</strong> : Recherche autour des RAD</li>
-                            <li><strong>Equipe</strong> : 1 chef de projet, 2 fonctionnels, 3 développeurs</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : Choix des outils, Méthode, Conception,
-                                Développement.
-                            </li>
-                            <li><strong>Durée</strong> : 12 mois</li>
-                            <li><strong>Technologies</strong> : UML, J2EE,</li>
-                            <li><strong>Outils</strong> : Rational Rose, Websphere 6.</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>FRANCE TELECOM - montpellier 34</h3> <img src="img/logos/france_tel.jpg"
-                                                                                         alt="France Telecom">
-                        <ul>
-                            <li><strong>Objet</strong> : Conception de nouvelles fonctionnalités pour une application
-                                Nomade de suivi d'activité des techniciens.
-                            </li>
-                            <li><strong>Equipe</strong> : 1 chef de projet, 3 développeurs</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : Encadrement, Organisation, Conception,
-                                Suivi technique
-                            </li>
-                            <li><strong>Durée</strong> : 6 mois</li>
-                            <li><strong>Technologies</strong> : UML, J2EE, Nomadisme</li>
-                            <li><strong>Outils</strong> : PVCS Dimension / Tracker, Objecteering 5.2, JonAS 3, Oracle
-                                9i, Linux, Eclipse
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>PROBTP - cagnes-sur-mer 06</h3> <img src="img/logos/btp.jpg"
-                                                                                    alt="PROBTP">
-                        <ul>
-                            <li><strong>Objet</strong> : mission d'expertise technique</li>
-                            <li><strong>Equipe</strong> : 1 expert</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : expertise</li>
-                            <li><strong>Durée</strong> : quelques jours</li>
-                            <li><strong>Technologies</strong> : UML, J2EE,</li>
-                            <li><strong>Outils</strong> : Eclipse</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>Hutchinson - montargis 45</h3> <img src="img/logos/hutchinson.jpg"
-                                                                                   alt="Hutchinson">
-                        <ul>
-                            <li><strong>Objet</strong> : Mission d'expertise de conception d'arborescence LDAP</li>
-                            <li><strong>Equipe</strong> : 1 expert</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : Spécification, Architecture ,
-                                Développement.
-                            </li>
-                            <li><strong>Durée</strong> : 2 mois</li>
-                            <li><strong>Technologies</strong> : J2EE, LDAP</li>
-                            <li><strong>Outils</strong> : iPlanet LDAP server 5.1, Eclipse 3.0.1, Tomcat 3.3.1.</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="span12 thumbfix">
-                    <div class="thumbnail"><h3>M6 WEB - lille 59</h3> <img src="img/logos/m6.jpg" alt="M6">
-                        <ul>
-                            <li><strong>Objet</strong> : Mission d'expertise de conception d'arborescence LDAP</li>
-                            <li><strong>Equipe</strong> : 1 expert</li>
-                            <li><strong>Rôle du Consultant néovia</strong> : Spécification, Architecture ,
-                                Développement.
-                            </li>
-                            <li><strong>Durée</strong> : 2 mois</li>
-                            <li><strong>Technologies</strong> : J2EE, LDAP</li>
-                            <li><strong>Outils</strong> : iPlanet LDAP server 5.1, Eclipse 3.0.1, Tomcat 3.3.1.</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="span3">
-            <ul class="thumbnails">
-                <li class="span12">
-                    <div class="thumbnail"><h3>Témoignage Consultant</h3>
+                <p> Les Consultants de Néovia réalisent des missions variées de type : </p>
+                <ul>
+                    <li>Analyse/Conception,</li>
+                    <li>Développement,</li>
+                    <li>Encadrement, Expertise</li>
+                </ul>
+                <p> pour la réalisation d'applications stratégiques auprès de Grands Comptes comme de PME dans tous
+                    les
+                    secteurs d'activités. </p>
 
-                        <p>"Après de longues années baladé en clientèle pour le compte de SSII plus soucieuses de leur
-                            rentabilité que de mes intérêts, j'envisageais de m'installer en tant qu'indépendant, mais
-                            le côté administratif me rebutait quelque peu. </p>
+                <p> Voici à titre d'exemple, quelques missions réalisées par les Consultants de néovia : </p>
 
-                        <p> Avec Néovia, j'ai trouvé une solution intermédiaire qui m'offre une grande liberté d'action,
-                            une prise en charge totale du "back office", et une sécurité de rémunération par rapport à
-                            l'indépendant"</p>
-
-                        <p style="text-align: right;">SP</p></div>
-                </li>
-            </ul>
+            </div>
         </div>
     </div>
+</section>
+<section id="maincontent">
+<div class="container">
+<div class="row">
+
+<div class="span8">
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">RATP - 91</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/ratp.jpg" alt="RATP">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : Conception et développement d'un portail grand public
+                    </li>
+                    <li><strong>Equipe</strong> : 1 chef de projet, 2 fonctionnels, 3 développeurs</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : Choix des outils, Méthode,
+                        Conception,
+                        Développement.
+                    </li>
+                    <li><strong>Durée</strong> : 12 mois</li>
+                    <li><strong>Technologies</strong> : UML, J2EE,</li>
+                    <li><strong>Outils</strong> : Rational Rose, Websphere 6, Oracle v8, Solaris.</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">MANPOWER - St Ouen 93</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/manpo.jpg" alt="Manpower">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : Conception et développement d'une application
+                        stratégique
+                        orientée sur le métier du recrutement
+                    </li>
+                    <li><strong>Equipe</strong> : 1 chef de projet, 2 fonctionnels, 3 développeurs</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : Méthode, Conception, Développement.
+                    </li>
+                    <li><strong>Durée</strong> : 6 mois</li>
+                    <li><strong>Technologies</strong> : UML, J2EE, principes de l'Extreme Programming
+                    </li>
+                    <li><strong>Outils</strong> : Synergy CM / CS, Rational Rose, Websphere 6, DB2 v8,
+                        Solaris,
+                        RAD 6.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">IBM centre de recherche - La Gaude 06</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/ibm.jpg" alt="IBM">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : Recherche autour des RAD</li>
+                    <li><strong>Equipe</strong> : 1 chef de projet, 2 fonctionnels, 3 développeurs</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : Choix des outils, Méthode,
+                        Conception,
+                        Développement.
+                    </li>
+                    <li><strong>Durée</strong> : 12 mois</li>
+                    <li><strong>Technologies</strong> : UML, J2EE,</li>
+                    <li><strong>Outils</strong> : Rational Rose, Websphere 6.</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">FRANCE TELECOM - Montpellier 34</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/france_tel.jpg" alt="France Telecom">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : Conception de nouvelles fonctionnalités pour une
+                        application Nomade de suivi d'activité des techniciens.
+                    </li>
+                    <li><strong>Equipe</strong> : 1 chef de projet, 3 développeurs</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : Encadrement, Organisation, Conception,
+                        Suivi technique
+                    </li>
+                    <li><strong>Durée</strong> : 6 mois</li>
+                    <li><strong>Technologies</strong> : UML, J2EE, Nomadisme</li>
+                    <li><strong>Outils</strong> : PVCS Dimension / Tracker, Objecteering 5.2, JonAS 3,
+                        Oracle 9i, Linux, Eclipse
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">PROBTP - Cagnes-sur-mer 06</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/btp.jpg" alt="PROBTP">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : mission d'expertise technique</li>
+                    <li><strong>Equipe</strong> : 1 expert</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : expertise</li>
+                    <li><strong>Durée</strong> : quelques jours</li>
+                    <li><strong>Technologies</strong> : UML, J2EE,</li>
+                    <li><strong>Outils</strong> : Eclipse</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">Hutchinson - Montargis 45</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/hutchinson.jpg" alt="Hutchinson">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : Mission d'expertise de conception d'arborescence LDAP
+                    </li>
+                    <li><strong>Equipe</strong> : 1 expert</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : Spécification, Architecture ,
+                        Développement.
+                    </li>
+                    <li><strong>Durée</strong> : 2 mois</li>
+                    <li><strong>Technologies</strong> : J2EE, LDAP</li>
+                    <li><strong>Outils</strong> : iPlanet LDAP server 5.1, Eclipse 3.0.1, Tomcat 3.3.1.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="blog-post">
+        <div class="post-heading">
+            <h3><a href="#">M6 WEB - lille 59</a></h3>
+        </div>
+        <div class="row">
+            <div class="span2">
+                <div class="post-icon">
+                    <img src="assets/img/logos/m6.jpg" alt="M6">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="span6">
+                <ul>
+                    <li><strong>Objet</strong> : Mission d'expertise de conception d'arborescence LDAP
+                    </li>
+                    <li><strong>Equipe</strong> : 1 expert</li>
+                    <li><strong>Rôle du Consultant néovia</strong> : Spécification, Architecture ,
+                        Développement.
+                    </li>
+                    <li><strong>Durée</strong> : 2 mois</li>
+                    <li><strong>Technologies</strong> : J2EE, LDAP</li>
+                    <li><strong>Outils</strong> : iPlanet LDAP server 5.1, Eclipse 3.0.1, Tomcat 3.3.1.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
 </div>
-<footer class="footer"> © Neovia | 32 bd de Strabourg 75010 Paris | SARL au capital variable minimum de 5000 €</footer>
+<!-- colonne droite -->
+<div class="span4">
+    <aside>
+        <div class="widget">
+            <h4>Témoignage Consultant</h4>
+
+            <p>"Après de longues années baladé en clientèle pour le compte de SSII plus soucieuses
+                de leur
+                rentabilité que de mes intérêts, j'envisageais de m'installer en tant
+                qu'indépendant, mais
+                le côté administratif me rebutait quelque peu. </p>
+
+            <p> Avec Néovia, j'ai trouvé une solution intermédiaire qui m'offre une grande liberté
+                d'action,
+                une prise en charge totale du "back office", et une sécurité de rémunération par
+                rapport à
+                l'indépendant"</p>
+
+            <p style="text-align: right;">SP</p></div>
+</div>
+</aside>
+</div>
+</div>
+
+</div>
+</section>
+<footer class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <p>
+                    &copy; Neovia | NEOVIA, 1 allée de la lyre, 64600 ANGLET | SARL au capital variable minimum de 5000
+                    €
+                </p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/portfolio/jquery.quicksand.js"></script>
+<script src="assets/js/portfolio/setting.js"></script>
+<script src="assets/js/hover/jquery-hover-effect.js"></script>
+<script src="assets/js/jquery.flexslider.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/cbpAnimatedHeader.min.js"></script>
+<script src="assets/js/jquery.refineslide.js"></script>
+<script src="assets/js/jquery.ui.totop.js"></script>
+<script src="assets/js/common.js"></script>
 </body>
 </html>
