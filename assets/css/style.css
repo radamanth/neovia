@@ -7,6 +7,8 @@
 @import url('headerfix.css');
 /* ====================================== */
 
+body {font-size: 14px;}
+
 .clear { clear:both; }
 .video-container,.map-container 		{ position:relative; margin:0 0 15px 0;	padding-bottom:51%; padding-top:30px; height:0; overflow:hidden; border:none; }
 .video-container iframe,
