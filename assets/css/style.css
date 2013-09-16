@@ -1604,7 +1604,7 @@ ul.clients li img:hover {
 
 .testmonial_slider {margin: 0; padding: 0;}
 .testmonial_slider .slides > li {display: none; -webkit-backface-visibility: hidden; position: relative;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.testmonial_slider .slides img {width: 100%; display: block;}
+.testmonial_slider .slides img {display: block;}
 .testmonial_slider .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
