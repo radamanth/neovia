@@ -25,6 +25,11 @@ img.max-img {
 	height:auto;
 }
 
+img.portrait {
+    width: 120px;
+    height: 120px;
+}
+
 .row {
 	margin-bottom:30px;
 }
@@ -1806,11 +1811,11 @@ footer .footerlogo h6 a:hover {
 
 footer {
 	padding-top:30px;
-	color:#7e7e7e;
+	color:#fff;
 }
 
 footer.footer {
-	background:#3a3a3a;
+	background:#43749B;
 }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
