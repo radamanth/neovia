@@ -17,4 +17,9 @@ jQuery(document).ready(function($) {
         slideshow: true
     });
 
+    $('.flexslider').flexslider({
+        animation: "fade",
+        controlNav: false
+    });
+
 });

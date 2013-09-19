@@ -1576,6 +1576,7 @@ ul.clients li {
 	float:left;
 	width:155px;
 	margin:0 10px 10px 0;
+    vertical-align: middle;
 }
 
 ul.clients li:hover {
@@ -1588,6 +1589,7 @@ ul.clients li:hover {
 ul.clients li img {
 	margin:0;
 	opacity:0.8;
+    margin: auto;
 }
 
 ul.clients li img:hover {
